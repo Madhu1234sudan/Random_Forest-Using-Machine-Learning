@@ -1,0 +1,32 @@
+Random Forest Hyperparameter Tuning Results
+
+----------------------------------------
+Baseline Model
+----------------------------------------
+Accuracy: 0.9758
+Spam Precision: 0.97
+Spam Recall: 0.94
+Spam F1-Score: 0.96
+
+Confusion Matrix:
+[[727   8]
+ [ 17 283]]
+
+----------------------------------------
+Tuned Model
+----------------------------------------
+Accuracy: 0.9780
+Spam Precision: 0.98
+Spam Recall: 0.95
+Spam F1-Score: 0.96
+
+Confusion Matrix:
+[[735   7]
+ [ 15 285]]
+
+----------------------------------------
+Observation
+----------------------------------------
+- Tuned model improved spam recall.
+- False negatives reduced.
+- Overall model performance became more balanced.
